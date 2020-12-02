@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="cp">CAPITALS QUIZ</string>
+    <string name="info">This is a quiz about your knowledge of the worlds capitals!</string>
+    <string name="highscore">Highscore: %.1f%%</string>
+    <string name="str">START QUIZ</string>
+    <string name="resscr">Reset highscore</string>
+    <string name="resans">Reset answers</string>
+    <string name="resetHighTitle">Reset highscore</string>
+    <string name="resetHighMessage">Do you really want to reset highscore?</string>
+    <string name="resetAnsTitle">Reset saved answers</string>
+    <string name="resetAnsMessage">Do you really want to reset saved answers?</string>
+    <string name="questionNumber">Question: %d</string>
+    <string name="dontknow">I do not know</string>
+    <string name="prev">Previous question</string>
+    <string name="nx">Next question</string>
+    <string name="resultsTitle">Score: %.1f%%</string>
+    <string name="resultsDesc">"Question results: "</string>
+    <string name="back">Back to main</string>
+    <string name="subAns">Submit answer</string>
+    <string name="submitTitle">Confirm submission</string>
+    <string name="submitMessage">Are you sure?</string>
+    <string name="userAnswer">Your answer: %s</string>
+    <string name="correct">Correct answer!</string>
+    <string name="incorrect">Correct answer: %s</string>
+    <string name="newHighscore">New highscore!</string>
+
+    <!-- String array 6 questions-->
+    <string-array name="q1">
+        <item>What is the capital city of France?</item>
+        <item>Orleans</item>
+        <item>London</item>
+        <item>Paris</item>
+        <item>Lisbon</item>
+        <item>opt3</item>
+    </string-array>
+
+    <string-array name="q2">
+        <item>What is the capital city of Estonia?</item>
+        <item>Tallinn</item>
+        <item>London</item>
+        <item>Tartu</item>
+        <item>Lisbon</item>
+        <item>opt1</item>
+    </string-array>
+
+    <string-array name="q3">
+        <item>What is the capital city of Finland?</item>
+        <item>Tallinn</item>
+        <item>Helsinki</item>
+        <item>London</item>
+        <item>Lisbon</item>
+        <item>opt2</item>
+    </string-array>
+
+    <!-- Through this array questions will be accessed -->
+    <array name="questions">
+        <item>@array/q1</item>
+        <item>@array/q2</item>
+        <item>@array/q3</item>
+    </array>
+</resources>
